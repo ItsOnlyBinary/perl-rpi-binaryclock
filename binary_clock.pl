@@ -3,6 +3,7 @@ use strict;
 use warnings;
 
 BEGIN {
+    use vars qw($VERSION);
     $VERSION     = '0.01';
 }
 
