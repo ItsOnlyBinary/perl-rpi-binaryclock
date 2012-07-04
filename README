@@ -1,0 +1,22 @@
+Raspberry Pi GPIO Binary Clock 
+
+powered by Perl & POE
+
+
+Use at your own risk!
+
+
+Default BCM Pin Usage
+
+my $pins = {
+    sw => 25,
+    s  => 9,
+    m  => 10,
+    h  => 11,
+    1  => 17,
+    2  => 18,
+    4  => 21,
+    8  => 22,
+    16 => 23,
+    32 => 24,
+};
